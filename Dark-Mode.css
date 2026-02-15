@@ -1,0 +1,37 @@
+.switch 
+{
+    display:inline-block;
+    width: 50px;
+    height: 25px;
+    background: #ccc;
+    border-radius: 25px;
+    position: relative;
+  }
+  
+.switch input
+{
+    display: none;
+}
+  
+  .slider 
+  {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background: white;
+    border-radius: 50px;
+    top: 1px;
+    left: 1px;
+    transition: 0.7s;
+  }
+  
+  input:checked + .slider 
+  {
+    left:25px;
+    background: black;
+  }
+#bdy
+{
+    margin-left:50%;
+    margin-top:50vh;
+}
